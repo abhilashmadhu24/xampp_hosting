@@ -1,0 +1,14 @@
+
+<VirtualHost 10.60.81.170:80>
+    ServerName www.DOMAIN
+    ServerAlias DOMAIN
+    DocumentRoot "/opt/lampp/htdocs/DOMAIN"
+ <Directory /opt/lampp/htdocs/DOMAIN>
+        Options FollowSymLinks MultiViews
+        AllowOverride all
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+
+
