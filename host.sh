@@ -2,7 +2,7 @@
 #######################################
 #SCRIPT NAME            :host.sh
 #DESCRIPTION            :Host domain on this server by adding on host file and creating document root
-#			            :Default FTP user is tanzanitebus as per client requirement
+
 #USAGE                  :run sh host.sh
 #                       :give domain name and document root on prompt
 #######################################
