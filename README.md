@@ -30,12 +30,12 @@ sh host.sh and follow instructions
 1 : Domain
 2 : Sub-domain
 Enter your choice.. 1/2 : 1
-Domain name : zxtestivan.cf
+Domain name : testivan.cf
 Give your FTP USER_NAME : ivan
 
 ###############################################
 Domain name = zxtestivan.cf
-Document root location = /opt/lampp/htdocs/zxtestivan.cf 
+Document root location = /opt/lampp/htdocs/testivan.cf 
 ###############################################
 
 Creating directory and assigning ownership 
@@ -48,41 +48,41 @@ Reloading service...
 XAMPP: Reload Apache...ok.
 
 ###########################################
-Successfully hosted zxtestivan.cf ..... 
+Successfully hosted testivan.cf ..... 
 ###########################################
 
-Checking whether zxtestivan.cf is pointed to this server......
+Checking whether testivan.cf is pointed to this server......
   
 
 ###################################################################################
-zxtestivan.cf is pointed to this server, Beginning SSL Installation using certbot......
+testivan.cf is pointed to this server, Beginning SSL Installation using certbot......
 ###################################################################################
 
 ###################################################################################
 Checking certbot is available..
 ###################################################################################
 /snap/bin/certbot
-    ServerName www.zxtestivan.cf
+    ServerName www.testivan.cf
 
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 
-Requesting a certificate for zxtestivan.cf
+Requesting a certificate for testivan.cf
 
 Congratulations! Your certificate and chain have been saved at:
-   /etc/letsencrypt/live/zxtestivan.cf/fullchain.pem
+   /etc/letsencrypt/live/testivan.cf/fullchain.pem
    Your key file has been saved at:
-   /etc/letsencrypt/live/zxtestivan.cf/privkey.pem
+   /etc/letsencrypt/live/testivan.cf/privkey.pem
 
 #################################################################################################################
- SSL entries for zxtestivan.cf added to configuration file. Previous configuration is copied on /opt/lampp/etc/httpd_backups/httpd_ssl.conf-2021-08-08-04-09-16 
+ SSL entries for testivan.cf added to configuration file. Previous configuration is copied on /opt/lampp/etc/httpd_backups/httpd_ssl.conf-2021-08-08-04-09-16 
 #####################################################################################################################
 Checking configuration file....
 
 Syntax OK
 
 ###############################################
-Domain name = zxtestivan.cf
-Document root location = /opt/lampp/htdocs/zxtestivan.cf 
+Domain name = testivan.cf
+Document root location = /opt/lampp/htdocs/testivan.cf 
 ###############################################
 
 ```
