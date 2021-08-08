@@ -23,7 +23,7 @@ begin_ssl()
       certbot certonly --debug --webroot -w /opt/lampp/htdocs/$DOMAIN -d $DOMAIN --register-unsafely-without-email --agree-tos
       else
       echo "SSL with www"
-      certbot certonly --debug --webroot -w /opt/lampp/htdocs/$DOMAIN -d $DOMAIN --register-unsafely-without-email --agree-tos
+      certbot certonly --debug --webroot -w /opt/lampp/htdocs/$DOMAIN -d $DOMAIN -d www.$DOMAIN --register-unsafely-without-email --agree-tos
       fi
 }
 
