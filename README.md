@@ -3,11 +3,12 @@ Hi folks,
 This is an automated hosting script for xampp based webservers on ubuntu servers. For those, who are not aware about xampp, xampp is a web-server bundled with apache php and mariadb. Usually we do commandline operations on xambb servers for hosting a domain. But we can automate all things like hosting, ssl installation, .htaccess,FTP user and default index creation with this one step hosting script.
 
 For installing XAMPP web server
-
+```
 >> apt update
 >> wget https://www.apachefriends.org/xampp-files/7.1.10/xampp-linux-x64-7.1.10-0-installer.run
 >> chmod +x xampp-linux-x64-7.1.10-0-installer.run
 >> ./xampp-linux-x64-7.1.10-0-installer.run
+```
 
 More commandline operations on : https://dzone.com/articles/lamppxampp-commands
 
