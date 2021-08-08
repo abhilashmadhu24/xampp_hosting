@@ -1,8 +1,14 @@
-<VirtualHost 10.60.83.170:80>
-    ServerAdmin webmaster@tanzanitebus.co.tz
-    DocumentRoot "/opt/lampp/htdocs/DOMAIN/"
-    ServerName DOMAIN
-    ServerAlias www.DOMAIN
-    ErrorLog "logs/DOMAIN-error_log"
-    CustomLog "logs/DOMAIN-access_log" common
+
+<VirtualHost IPADDR:80>
+    ServerName www.DOMAIN
+    ServerAlias DOMAIN
+    DocumentRoot "/opt/lampp/htdocs/DOMAIN"
+ <Directory /opt/lampp/htdocs/DOMAIN>
+        Options FollowSymLinks MultiViews
+        AllowOverride all
+        Require all granted
+    </Directory>
 </VirtualHost>
+
+
+

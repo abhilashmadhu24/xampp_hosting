@@ -1,6 +1,7 @@
-RewriteEngine on
-RewriteCond %{HTTPS} !=on [NC]
-RewriteRule ^(.*)$ https://$DOMAIN/$1 [R=301,L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^DOMAIN [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.DOMAIN/$1 [R=301,L]
 
 RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]

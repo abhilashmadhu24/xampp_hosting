@@ -1,7 +1,7 @@
 
-<VirtualHost 10.60.83.170:443>
-    ServerName DOMAIN
-    ServerAlias www.DOMAIN
+<VirtualHost IPADDR:443>
+    ServerName www.DOMAIN
+    ServerAlias DOMAIN
     DocumentRoot "/opt/lampp/htdocs/DOMAIN"
  <Directory /opt/lampp/htdocs/DOMAIN>
         Options FollowSymLinks MultiViews
